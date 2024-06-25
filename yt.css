@@ -1,0 +1,15 @@
+#player-full-bleed-container.ytd-watch-grid {
+    flex-direction: row !important;
+}
+#columns.ytd-watch-grid {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+}
+#fixed-secondary.ytd-watch-grid {
+    left: 0 !important;
+}
+
+#title {
+    pointer-events: none !important;
+    cursor: text !important;
+}
