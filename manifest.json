@@ -3,16 +3,14 @@
   "name": "left side yt",
   "version": "1.0",
   "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "storage",
-    "tabs",
-    "downloads",
-    "<all_urls>"
+    "tabs"
   ],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://youtube.com/*"
+      ],
       "css": ["yt.css"]
     }
   ],
