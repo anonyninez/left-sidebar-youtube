@@ -5,7 +5,10 @@
     display: flex !important;
     flex-direction: row-reverse !important;
 }
-#fixed-secondary.ytd-watch-grid {
+#fixed-columns-secondary{
+    flex-direction: row-reverse !important;
+}
+#secondary {
     left: 0 !important;
 }
 
