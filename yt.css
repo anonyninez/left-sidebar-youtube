@@ -5,14 +5,16 @@
     display: flex !important;
     flex-direction: row-reverse !important;
 }
-#fixed-columns-secondary{
+#fixed-columns-secondary.ytd-watch-grid{
     flex-direction: row-reverse !important;
 }
 #secondary {
     left: 0 !important;
 }
-
-#title {
-    pointer-events: none !important;
-    cursor: text !important;
+#secondary.ytd-watch-flexy {
+    padding-left: 24px !important; 
+    padding-right: 0px !important;
+}
+#columns {
+    flex-direction: row-reverse !important;
 }
