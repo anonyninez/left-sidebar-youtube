@@ -8,15 +8,16 @@
 #fixed-columns-secondary.ytd-watch-grid{
     flex-direction: row-reverse !important;
 }
-#secondary {
+#columns.secondary {
     left: 0 !important;
 }
-#secondary.ytd-watch-flexy {
+#columns.secondary.ytd-watch-flexy {
     padding-left: 24px !important; 
     padding-right: 0px !important;
 }
 #columns {
     flex-direction: row-reverse !important;
+    justify-content: center !important;
 }
 body {
     overflow-x: hidden;
