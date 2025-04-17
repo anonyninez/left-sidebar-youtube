@@ -1,24 +1,9 @@
-#player-full-bleed-container.ytd-watch-grid {
-    flex-direction: row !important;
-}
-#columns.ytd-watch-grid {
-    display: flex !important;
+#columns.ytd-watch-flexy {
     flex-direction: row-reverse !important;
+    overflow-x: auto !important;
 }
-#fixed-columns-secondary.ytd-watch-grid{
-    flex-direction: row-reverse !important;
-}
-#columns.secondary {
-    left: 0 !important;
-}
-#columns.secondary.ytd-watch-flexy {
-    padding-left: 24px !important; 
-    padding-right: 0px !important;
-}
-#columns {
-    flex-direction: row-reverse !important;
-    justify-content: center !important;
-}
-body {
-    overflow-x: hidden;
+
+#secondary.ytd-watch-flexy {
+    padding-left: var(--ytd-margin-6x) !important;
+    padding-right: 0 !important;
 }
